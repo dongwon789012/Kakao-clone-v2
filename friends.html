@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Friends | Kakao Clone</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"> <!--load all styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Friends | Kakao Clone</title>
 </head>
 <body>
-    <div class="stasus-bar">
+    <div class="status-bar">
         <div class="status-column">
-            <span class="ststus-bar_clock">13:54</span>
+            <span class="status-bar_clock">13:54</span>
         </div>
         <div class="status_column">
             <i class="fas fa-clock"></i>
@@ -35,51 +36,64 @@
         </div>
     </header>
     <main class="friends">
-        <header class="friend_header">
-                <div class="friends_friend friend friend--lg">
-                        <img src="images/image.jpg" class="g-avatar friend_avatar">
-                        <div class="fiend_content">
-                            <span class="fiend_name">
-                                ldw
-                        
-                            </span>
-                            <span class="friend_status">
-                                begining
-                            </span>
-                        </div>
-                </div>
+        <header class="friends_header">
+          <div class="friends_friend friend">
+                    <div class="friend_column">
+                                <img src="images/image.jpg" class="g-avatar friend_avatar">
+                             <div class="friend_content">
+                                 <span class="friend_name">
+                                        ldw
+                                
+                                 </span>
+                                 <span class="friend_status">
+                                        begining
+                                 </span>
+                            </div>
+                    </div>
+                    
+           </div>
         </header>
-        <div class="firends_plus-friend">
+        <div class="friends_plus">
             <h5 class="friends_title">
                 Plus friend
             </h5>
+        
+        <div class="friends_friend friend">
+            <div class="friend_column">
+                    <img src="images/image.jpg" class="friend_avatar">
+                    <div class="friend_content">
+                        <span class="friend_name">
+                            Plus Friend
+                        </span>
+                        </div>
+                    </div>
+            </div>  
         </div>
-        <div class="friends_friend friend ">
-                <img src="images/image.jpg" class="g-avatar friend_avatar">
-                <div class="fiend_content">
-                    <span class="fiend_name">
-                        Plus Friend
-                    </span>
-
-                </div>
-        </div>
-        <ul class="firends_list">
-            <h5 class="friend_title">Friends 14</h5>
-            <li>
+        <ul class="friends_list">
+            <h5 class="friends_title">Friends 14</h5>
                  <li class="friends_friend friend friend--lg">
-                            <img src="images/image.jpg" class="g-avatar friend_avatar">
-                            <div class="fiend_content">
-                                <span class="fiend_name">
-                                    ldw
-                            
+                           <div class="friend_column">
+                                <img src="images/image.jpg" class="friend_avatar">
+                                <div class="friend_content">
+                                    <span class="friend_name">
+                                        ldw
+                                
+                                    </span>
+                                   
+                                    <span class="friend_status">
+                                        begining
+                                    </span>
+                                </div>
+                           </div> 
+                           <div class="friend_column">
+                               <div class="friend_now-listening">
+                                  <span>
+                                   FTISLAND(FT.ldw)
+                                  <i class="fas fa-play"></i>
                                 </span>
-                                <span class="friend_status">
-                                    begining
-                                </span>
-                            </div>
-                        </li> 
-            </li>
-            
+                               </div>
+                           </div>
+                 </li> 
         </ul>
     </main>
     <nav class="nav">
@@ -98,5 +112,8 @@
             </a></li>
         </ul>
     </nav>
+    <div class="bigScreen">
+            <span class="bigScreen_text">Please make your screen small!</span>
+        </div>
 </body>
 </html>
